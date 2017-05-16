@@ -15,5 +15,5 @@ node {
         }
 
         // Launch dependant jobs
-        //build job: 'php/5', wait: false
+        build job: 'php/5', wait: false
 }
